@@ -1,4 +1,4 @@
-NS = philipp-luettecke
+NS = philippluettecke
 REPO = latex
 IMAGE = $(NS)/$(REPO)
 
