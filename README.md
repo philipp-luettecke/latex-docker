@@ -1,5 +1,9 @@
-Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/blang/latex.svg)](https://hub.docker.com/r/blang/latex/)
+Latex docker container [![Docker hub](https://img.shields.io/docker/pulls/philippluettecke/latex-ctanfull.svg)](https://hub.docker.com/r/philippluettecke/latex-ctanfull/)
 ======================
+
+This Repository is a Fork of blang/latex-docker, with updated environments and TexLive 2021.
+
+As soon as TexLive 2022 is available, the `:latest` Tag will refer to the 2022 Version.
 
 This container helps compiling latex sources without the need to install all latex packages on your system.
 
@@ -16,15 +20,15 @@ Versions
 All versions are based on Ubuntu: ([See all tags](https://hub.docker.com/r/blang/latex/))
 
 - [blang/latex:ubuntu (:latest) - Dockerfile.ubuntu](Dockerfile.ubuntu) Ubuntu TexLive distribution: Old but stable, most needed package: texlive-full (3.9GB)
-- [blang/latex:ctanbasic - Dockerfile.basic](Dockerfile.basic) CTAN TexLive Scheme-basic: Up-to-date, only basic packages, base for custom builds (500MB)
-- [blang/latex:ctanfull - Dockerfile.full](Dockerfile.full) CTAN TexLive Scheme-full: Up-to-date, all packages (5.6GB)
+- [philippluettecke/latex-ctanbasic - Dockerfile.basic](Dockerfile.basic) CTAN TexLive Scheme-basic: Up-to-date, only basic packages, base for custom builds (600MB)
+- [philippluettecke/latex-ctanfull - Dockerfile.full](Dockerfile.full) CTAN TexLive Scheme-full: Up-to-date, all packages (7.1GB)
 
 If you need...
 - ...the most-stuff-works-out-of-the-box package, try `blang/latex:ubuntu`.
-- ...the most recent version of everything, try `blang/latex:ctanfull`.
-- ...a stable base for your custom texlive build, try `blang/latex:ctanbasic`.
+- ...the most recent version of everything, try `philippluettecke/latex-ctanfull`.
+- ...a stable base for your custom texlive build, try `philippluettecke/latex-ctanbasic`.
 
-For stability, choose a more specific version tag ([See all tags](https://hub.docker.com/r/blang/latex/))
+For stability, choose a more specific version tag ([See all tags](https://hub.docker.com/r/philippluettecke/latex-ctanfull))
 
 Quick Setup
 -----------
