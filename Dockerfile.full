@@ -1,4 +1,4 @@
-FROM blang/latex:ctanbasic
-MAINTAINER Benedikt Lang <mail@blang.io>
+FROM philipp-luettecke/latex-ctanbasic:2021
+MAINTAINER Philipp Luettecke <philipp@luettecke.net>
 
 RUN tlmgr install scheme-full
